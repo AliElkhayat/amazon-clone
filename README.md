@@ -62,6 +62,81 @@ D -->|Trigger| E[React Hot Toast]
 B -->|Remove from Cart| D
 D -->|Buy Item| F[Payment / Order Confirmation]
 ```
+-------------------------------
+
+# 📂 Project Structure
+```
+└── 📁AmazonClone
+    └── 📁public
+    └── 📁src
+        └── 📁assets
+            └── 📁images
+                └── 📁icons
+                    ├── searchIcon.png
+                    ├── shopping-cart.png
+                    ├── star.png
+                └── 📁products
+                    ├── 1.png
+                    ├── 2.png
+                    ├── 3.png
+                    ├── 4.png
+                    ├── 5.png
+                    ├── 6.png
+                ├── back to school.jpg
+                ├── checkoutAd.jpg
+                ├── header-logo.png
+                ├── login-logo.png
+                ├── NotFound.jpg
+        └── 📁components
+            └── 📁CheckoutProduct
+                ├── CheckoutProduct.css
+                ├── CheckoutProduct.jsx
+            └── 📁Header
+                ├── Header.css
+                ├── Header.jsx
+            └── 📁Products
+                ├── Product.css
+                ├── Product.jsx
+            └── 📁SubTotalItems
+                ├── SubTotalItems.css
+                ├── SubTotalItems.jsx
+        └── 📁context
+            ├── AppReducer.js
+            ├── GlobalState.jsx
+            ├── initialState.js
+        └── 📁firebase
+            ├── firebase.js
+        └── 📁pages
+            └── 📁Checkout
+                ├── Checkout.css
+                ├── Checkout.jsx
+            └── 📁Home
+                ├── Home.css
+                ├── Home.jsx
+            └── 📁Login
+                ├── Login.css
+                ├── Login.jsx
+            └── 📁NotFound
+                ├── NotFound.css
+                ├── NotFound.jsx
+            └── 📁Payment
+                ├── Payment.css
+                ├── Payment.jsx
+        ├── App.css
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+    ├── .env
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    └── vite.config.js
+```
+---
+
 ----------------------------
 # ⚙️ Installation & Setup
 
